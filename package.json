@@ -1,0 +1,16 @@
+{
+  "name": "mr-review-bot",
+  "version": "1.0.0",
+  "description": "A GitLab merge request review bot using AI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0",
+    "axios": "^1.6.7",
+    "@google/generative-ai": "^0.2.1"
+  }
+} 
